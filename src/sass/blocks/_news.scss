@@ -1,0 +1,33 @@
+.news {
+    width: 100%;
+    min-height: 400px;
+    margin-top: 60px;
+    color: #fff;
+    .news__title {
+        font-size: 80px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .news__blocks {
+        display: flex;
+        justify-content: space-between;
+        .news__items {
+            margin-bottom: 50px;
+            .news__content {
+                margin-bottom: 30px;
+            }
+            .news__text {
+                font-weight: 500;
+                .news__text-sub {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                    line-height: 24px;
+                }
+                .news__text-descr {
+                    font-size: 14px;
+                    line-height: 20.79px;
+                }
+            }
+        }
+    }
+}
